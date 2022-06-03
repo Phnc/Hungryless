@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.2.32505.173
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hungryless", "Hungryless\Hungryless.csproj", "{988C0161-432A-4C2A-83C7-451DC4257C25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hungryless.Web", "Hungryless.Web\Hungryless.Web.csproj", "{ABB3162B-F8BD-416B-8FF0-DFCFC6CB83D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hungryless.Domain", "Hungryless.Domain\Hungryless.Domain.csproj", "{AA084045-1E7A-44A1-95D8-C59B4E28A9B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hungryless.Domain", "Hungryless.Domain\Hungryless.Domain.csproj", "{C1C1A20C-D6FE-43B2-8A2C-5A915BE8F128}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hungryless.Infra", "Hungryless.Infra\Hungryless.Infra.csproj", "{E40481CF-2E4D-4E70-A314-BB147999DDE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hungryless.Infrastructure", "Hungryless.Infrastructure\Hungryless.Infrastructure.csproj", "{85567307-844D-4A7F-AAFA-B672F02A360B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{988C0161-432A-4C2A-83C7-451DC4257C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{988C0161-432A-4C2A-83C7-451DC4257C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{988C0161-432A-4C2A-83C7-451DC4257C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{988C0161-432A-4C2A-83C7-451DC4257C25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA084045-1E7A-44A1-95D8-C59B4E28A9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA084045-1E7A-44A1-95D8-C59B4E28A9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA084045-1E7A-44A1-95D8-C59B4E28A9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA084045-1E7A-44A1-95D8-C59B4E28A9B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E40481CF-2E4D-4E70-A314-BB147999DDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E40481CF-2E4D-4E70-A314-BB147999DDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E40481CF-2E4D-4E70-A314-BB147999DDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E40481CF-2E4D-4E70-A314-BB147999DDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB3162B-F8BD-416B-8FF0-DFCFC6CB83D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB3162B-F8BD-416B-8FF0-DFCFC6CB83D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB3162B-F8BD-416B-8FF0-DFCFC6CB83D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB3162B-F8BD-416B-8FF0-DFCFC6CB83D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C1A20C-D6FE-43B2-8A2C-5A915BE8F128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C1A20C-D6FE-43B2-8A2C-5A915BE8F128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C1A20C-D6FE-43B2-8A2C-5A915BE8F128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C1A20C-D6FE-43B2-8A2C-5A915BE8F128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85567307-844D-4A7F-AAFA-B672F02A360B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85567307-844D-4A7F-AAFA-B672F02A360B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85567307-844D-4A7F-AAFA-B672F02A360B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85567307-844D-4A7F-AAFA-B672F02A360B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {15DBA70B-0752-415E-9941-44DCA2C943A5}
+		SolutionGuid = {DC4F5B0D-3306-4F42-A777-3E532B18236B}
 	EndGlobalSection
 EndGlobal
